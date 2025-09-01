@@ -1,0 +1,85 @@
+body {
+    background: #2d3748;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #f7fafc;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    margin: 40px auto;
+    gap: 30px;
+}
+
+.columna {
+    flex: 1;
+    padding: 32px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: #3b4252;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    border: none;
+}
+
+.columna:not(:last-child) {
+    margin-right: 0px;
+}
+
+.foto-perfil {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #4fd1c5;
+    display: block;
+    margin: 0 auto 24px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+strong {
+    color: #4fd1c5;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+}
+
+p {
+    margin: 8px 0;
+    font-size: 1rem;
+    font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #4fd1c5;
+    margin: 16px 0;
+}
+
+video {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 12px;
+    background: #222;
+}
+
+img[alt="redes sociales"], 
+img[alt="Facebook"], 
+img[alt="Instagram"], 
+img[alt="GitHub"], 
+img[alt="LinkedIn"] {
+    vertical-align: middle;
+    margin-right: 8px;
+    border-radius: 4px;
+    background: #222;
+    padding: 2px;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
